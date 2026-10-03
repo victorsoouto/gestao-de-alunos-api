@@ -29,7 +29,7 @@ describe('Login', () => {
         expect(cadastroAlunoResposta.body.email).to.equal('victorsoouto@gmail.com');
     })
 
-    it.only('deve negar o cadastro de um aluno quando ele já existe', async () => {
+    it('deve negar o cadastro de um aluno quando ele já existe', async () => {
         //Cadastrar Aluno
         const cadastroAlunoResposta = await request('http://localhost:3000')
             .post('/api/admin/alunos')

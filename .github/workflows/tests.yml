@@ -28,7 +28,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Instalar dependências
@@ -38,3 +38,5 @@ jobs:
         run: npm test
         env:
           MONGODB_URI: mongodb://127.0.0.1:27017/gestao-de-alunos-test
+          ADMIN_EMAIL: admin@escola.com
+          ADMIN_SENHA: admin123

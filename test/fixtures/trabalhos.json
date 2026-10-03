@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Trabalho de Pensamento Computacional",
+    "descricao": "Entrega do trabalho da disciplina.",
+    "statusDeEntrega": "Entregue"
+  },
+  {
+    "titulo": "Trabalho de Engenharia de Software",
+    "descricao": "Mais um exemplo de trabalho.",
+    "statusDeEntrega": "Entregue"
+  }
+]
